@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%
+}
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #506269;    
+    text-align: center;
+    margin-top: 1em;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.color {
+    color: #A5410F;
+}
+
+main header div h1 {
+    font-size: 3em;
+    width: 4em;
+    padding: 1.1em 4.1em;
+}
+
+#navegacao {
+    font-weight: lighter;
+    width: 32em;
+    height: 1.6em;
+    padding-top: 4.2em ;
+    padding-left: 4em;
+}
+
+#sobrenos {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: #A5410F;
+}
+
+main header div a#sobrenos:hover { 
+    color: #506269;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+main header div a {
+    text-decoration: none;
+    margin-left: 1.5em;
+    font-size: 1.8em;
+    color: inherit;
+}
+
+.alinhar {
+    width: 50%;
+    height: 100px;   
+    align-items: center;
+    justify-content: center;
+}
+
+.alinhamento {
+    width: 50%;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tituloPrincipal {
+    width: 10em;
+    font-size: 4em;
+    text-align: left;
+    display: inline-block;
+    padding-top: 3em;
+    padding-left: 3.2em;
+}
+
+#imagem {
+    margin-right: 7%;
+    margin-top: 5%;
+}
+
+#subtitulo {    
+    font-weight: lighter;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    font-size: 1.5em;
+}
+
+#conteiner {
+    width: 100em;
+}
+
+
+a:hover {
+	color: #A5410F;
+    font-weight: 400;
+	text-decoration: none;
+}
+
+
+
+#botao {
+    background-color: #A5410F; 
+    width: 24em;
+    border: none;
+    color: white;
+    padding: 32px 32px;
+    text-align: center;    
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#botao:hover {
+    background-color: #506269;
+	text-decoration: none;
+}
+
+
